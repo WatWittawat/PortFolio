@@ -5,7 +5,7 @@ import FuncProject from "./projects";
 
 export default function Project() {
   return (
-    <section>
+    <section id="projects" className="scroll-mt-28">
       <SectionHeader>My Projects</SectionHeader>
       <div>
         {projectsData.map((project, index) => (
