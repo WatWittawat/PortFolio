@@ -90,7 +90,7 @@ export default function Intro() {
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition"></BsArrowRight>
         </Link>
         <a
-          className="group bg-white flex px-7 py-3 gap-2 items-center rounded-full outline-none focus:scale-110  hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10"
+          className="group bg-white flex px-7 py-3 gap-2 items-center rounded-full outline-none focus:scale-110  hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10"
           href="/CV.pdf"
           download={true}
         >
@@ -98,7 +98,7 @@ export default function Intro() {
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition"></HiDownload>
         </a>
         <a
-          className="bg-white flex p-4 gap-2 items-center rounded-full text-gray-700 text-[1.35rem] focus:scale-[1.15]  hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10"
+          className="bg-white flex p-4 gap-2 items-center rounded-full text-gray-700 text-[1.35rem] focus:scale-[1.15]  hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white/60"
           href="https://github.com/WatWittawat"
           target="_blank"
         >

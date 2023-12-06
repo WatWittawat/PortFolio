@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hook";
 import sendMail from "@/actions/sendEmail";
 import SubmitBTN from "./submit-btn";
+import toast from "react-hot-toast";
 
 export default function Contact() {
   const { ref } = useSectionInView("Contact", 0.5);
@@ -40,9 +41,10 @@ export default function Contact() {
         action={async (fromData) => {
           const { data, error } = await sendMail(fromData);
           if (error) {
-            alert(error);
+            toast.error(error);
             return;
           }
+          toast.success("Email sent successfully!");
         }}
       >
         <input

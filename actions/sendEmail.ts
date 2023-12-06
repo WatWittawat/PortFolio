@@ -34,7 +34,7 @@ const sendMail = async (formData: FormData) => {
       }),
     });
   } catch (err: unknown) {
-    getErrorMessage(err);
+    error: getErrorMessage(err);
   }
   return { data };
 };
