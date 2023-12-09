@@ -2,8 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import Elite from "@/public/Elite.png";
+import Water from "@/public/Water.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -62,18 +62,18 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "ELite Mobile App",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked as a Front-End Developer on the Elite Mobile App project, which includes features such as hiring employees, withdrawing money, and searching for jobs.",
+    tags: ["React Native", "FastAPI", "MongoDB", "Cloudinary", "Figma"],
+    imageUrl: Elite,
   },
   {
-    title: "rmtDev",
+    title: "Automatic Watering",
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    tags: ["React", "PlatformIO", "C++", "MongoDB", "FastAPI"],
+    imageUrl: Water,
   },
   {
     title: "Word Analytics",
@@ -94,14 +94,16 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
   "Python",
-  "Django",
+  "C/C++",
   "Framer Motion",
+  "Figma",
+  "Miro",
+  "EJS",
+  "React Native",
+  "GiHub",
+  "Postman",
 ] as const;

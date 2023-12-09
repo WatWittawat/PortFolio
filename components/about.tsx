@@ -21,7 +21,7 @@ export default function About() {
           Kasetsart University, Bang Khen. Faculty of ComputerEngineering,
         </span>
         I am interested in{" "}
-        <span className="font-medium">front-end, back-end</span>because I
+        <span className="font-medium">front-end, back-end</span>{" "}because I
         studied the Software Engineering subject. I created a project group
         about mobile apps. I have begun to study knowledge about{" "}
         <span className="font-medium">

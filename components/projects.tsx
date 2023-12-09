@@ -45,7 +45,7 @@ const FuncProject = ({ title, description, tags, imageUrl }: ProjectProps) => {
           src={imageUrl}
           alt={title}
           quality={95}
-          className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl group-even:right-[initial] group-even:-left-40 group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 transition group-hover: scale-[1.04] group-even:group-hover:translate-x-3 group-even:group-hover:translate-y-3 group-even:group-hover:rotate-2"
+          className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl group-even:right-[initial] group-even:-left-40 group-hover:-translate-x-3 group-even:w-[30rem] group-even:h-[17.75rem] group-hover:translate-y-3 group-hover:-rotate-2 transition group-hover: scale-[1.04] group-even:group-hover:translate-x-3 group-even:group-hover:translate-y-3 group-even:group-hover:rotate-2"
         ></Image>
       </section>
     </motion.div>
