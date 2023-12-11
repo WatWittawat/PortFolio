@@ -14,7 +14,7 @@ export const getErrorMessage = (err: unknown): string => {
   } else if (typeof err === "string") {
     message = err;
   } else {
-    message = "Unknown error ";
+    message = "Unknown error";
   }
   return message;
 };

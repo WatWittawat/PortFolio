@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import Elite from "@/public/Elite.png";
 import Water from "@/public/Water.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import Todolist from "@/public/Todolist.png";
 
 export const links = [
   {
@@ -78,9 +78,9 @@ export const projectsData = [
   {
     title: "Mini To do list",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "It's a website where you can enter things you want to do or various items. You can delete, edit, and add information.",
+    tags: ["CSS", "Javascript", "EJS", "Bootstrap"],
+    imageUrl: Todolist,
   },
 ] as const;
 
