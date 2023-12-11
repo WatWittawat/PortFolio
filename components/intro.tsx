@@ -55,20 +55,23 @@ export default function Intro() {
         </div>
       </div>
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-normal !lead-[1.5] sm:text-4xl"
+        className="mb-10 mt-4 px-4 text-2xl font-normall !lead-[1.5] sm:text-3xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
           duration: 0.5,
         }}
       >
-        <span className="font-bold">Hello, I'm Wittawat,</span>a university
+        <span className="font-bold">Hello, I'm Wtttawat</span> ,a university
         student with a passion for{" "}
-        <span className="font-bold">Front-End development.</span>
-        Trained in{" "}
-        <span className="italic">React, TypeScript and Tailwind CSS,</span> I am
-        passionate about{" "}
-        <span className="underline">innovation and problem solving.</span>
+        <span className="underline">Front-End development.</span> Trained in{" "}
+        <span className="italic">React, TypeScript, and Tailwind CSS</span>, I
+        am enthusiastic about innovation and problem-solving.{" "}
+        <span className="font-medium">
+          While my ultimate goal is to become a Full-stack Dev
+        </span>
+        , I am currently focusing on learning Front-End tools and delving into a
+        bit of Back-End development.
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"

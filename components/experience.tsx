@@ -12,11 +12,11 @@ import { useSectionInView } from "@/lib/hook";
 import { useTheme } from "@/context/theme-context";
 
 export default function Experience() {
-  const { ref } = useSectionInView("Experience", 0.5);
+  const { ref } = useSectionInView("Education", 0.5);
   const { theme } = useTheme();
   return (
-    <section ref={ref} id="experience" className="scroll-mt-28 mb-28 sm:mb-40">
-      <SectionHeader>My experience</SectionHeader>
+    <section ref={ref} id="education" className="scroll-mt-28 mb-28 sm:mb-40">
+      <SectionHeader>Education</SectionHeader>
       <VerticalTimeline lineColor="" animate={true}>
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
