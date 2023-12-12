@@ -5,7 +5,7 @@ import { Resend } from "resend";
 import { validateString, getErrorMessage } from "@/lib/utils";
 import ContextFromEmail from "@/email/context-form-email";
 
-const resend = new Resend("re_QgHE6kBw_7qPTPFRahUUaUE662oCBKGQ3");
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 const sendMail = async (formData: FormData) => {
   const senderemail = formData.get("senderEmail");
