@@ -9,6 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hook";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import Watphoto from "@/public/Watphoto.jpeg";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -30,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://scontent.fbkk29-1.fna.fbcdn.net/v/t1.15752-9/398523317_1580123292792900_5565915792996408257_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=70wgQjTH328AX894L9K&_nc_ht=scontent.fbkk29-1.fna&oh=03_AdSW9iXXth_tksSVk3qvH5_4Dbykx8agqFcyFApXD4INLA&oe=6588418C"
+              src={Watphoto}
               alt="Wittawat Photo"
               width="192"
               height="192"

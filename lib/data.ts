@@ -1,6 +1,5 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaGraduationCap } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import Elite from "@/public/Elite.png";
 import Water from "@/public/Water.png";
