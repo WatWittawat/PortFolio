@@ -16,24 +16,31 @@ export default function About() {
     >
       <SectionHeader>About me</SectionHeader>
       <p>
-        I am studying at{" "}
+        I am currently in my final year at{" "}
         <span className="font-medium">
-          Kasetsart University, Bang Khen. Faculty of ComputerEngineering,
-        </span>
-        I am interested in{" "}
-        <span className="font-medium">front-end, back-end</span>{" "}because I
-        studied the Software Engineering subject. I created a project group
-        about mobile apps. I have begun to study knowledge about{" "}
+          Kasetsart University, Bang Khen Campus, under the Faculty of Computer
+          Engineering.
+        </span>{" "}
+        My passion lies in both{" "}
         <span className="font-medium">
-          HTML, CSS, Javascript, React, nodejs, etc.
+          front-end and back-end development, cultivated
         </span>{" "}
-        <span className="italic">
-          I love the feeling of being able to solve a problem.
+        through my studies in Software Engineering. I have had the opportunity
+        to lead a project group focused on mobile application development, which
+        has allowed me to deepen my technical skills and collaborative
+        abilities. I have been expanding my expertise in technologies such as{" "}
+        <span className="font-medium">
+          Next.js, Flutter, Go, and React, among others.
         </span>{" "}
-        Sometimes each problem takes a day, but when it's solved I'm really
-        happy about it. I like learning new technology.{" "}
+        <span className="italic">I take immense pride in problem-solving</span>{" "}
+        even when challenges take considerable time to overcome, the sense of
+        accomplishment afterward is profoundly rewarding. As I approach
+        graduation, I am highly motivated to embark on my professional journey
+        and continue learning and adapting to new technologies.{" "}
         <span className="underline">
-          I am looking for a company where I will intern for 6 months.
+          I am currently seeking a full-time position where I can contribute my
+          skills, grow professionally, and become a valuable part of a dynamic
+          team.
         </span>
       </p>
       <p></p>

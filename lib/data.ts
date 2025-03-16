@@ -1,9 +1,8 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { LuGraduationCap } from "react-icons/lu";
 import Elite from "@/public/Elite.png";
-import Water from "@/public/Water.png";
-import Todolist from "@/public/Todolist.png";
+import TripGether from "@/public/TripGether.png";
+import DailyNews from "@/public/DailyNews.png";
 
 export const links = [
   {
@@ -23,8 +22,8 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Education",
-    hash: "#education",
+    name: "Experiences",
+    hash: "#experiences",
   },
   {
     name: "Contact",
@@ -34,24 +33,39 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Satriwitthaya 2 School",
+    title: "T.C.C. Technology Co., Ltd. (Internship)",
     location: "Thailand",
     description:
-      "I attended middle school and high school at this institution, where my interest in computers first sparked.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2015-2020",
+      "MPOS, MCMC POS, and SX POS - Point of Sale (POS) systems designed to support in-store sales, built with the MVVM (Model-View-ViewModel) design pattern. Responsible for developing new features, fixing bugs, and writing unit tests to ensure code quality and reliability.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Apr 2024 - SEP 2024 (6 months)",
   },
   {
-    title: "Kasetsart University (Bangkhen)",
+    title: "T.C.C. Technology Co., Ltd. (Part time)",
     location: "Thailand",
     description:
-      "This is where I began coding, initiating projects, cultivating logical thinking, and delving deeply into the intricacies of computer structures.",
+      "Little John - A food delivery system within the One Bangkok building, developed using the Bloc Pattern architecture. Contributed to building features for notifications, order cancellations, and displaying order statuses.",
     icon: React.createElement(CgWorkAlt),
-    date: "2021-Present",
+    date: "OCT 2024 - Nov 2024 (2 months)",
   },
 ] as const;
 
 export const projectsData = [
+  {
+    title: "TripGether Webapp",
+    description:
+      "I worked on both the front-end and back-end of a group travel planning web app, overseeing overall development, responsive design, and the chat system.",
+    tags: [
+      "Next.js",
+      "Convex",
+      "Liveblocks",
+      "MongoDB",
+      "Figma",
+      "Cloudinary",
+      "Vercel",
+    ],
+    imageUrl: TripGether,
+  },
   {
     title: "ELite Mobile App",
     description:
@@ -60,22 +74,17 @@ export const projectsData = [
     imageUrl: Elite,
   },
   {
-    title: "Automatic Watering",
+    title: "Daily News Mobile App",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "PlatformIO", "C++", "MongoDB", "FastAPI"],
-    imageUrl: Water,
-  },
-  {
-    title: "Mini To do list",
-    description:
-      "It's a website where you can enter things you want to do or various items. You can delete, edit, and add information.",
-    tags: ["CSS", "Javascript", "EJS", "Bootstrap"],
-    imageUrl: Todolist,
+      "I developed a news system using Flutter Clean Architecture, enabling efficient data management and offline storage for better usability.",
+    tags: ["Flutter", "Hive Localstorage Lib", "NewApi"],
+    imageUrl: DailyNews,
   },
 ] as const;
 
 export const skillsData = [
+  "Go",
+  "Flutter",
   "HTML",
   "CSS",
   "JavaScript",
@@ -95,6 +104,7 @@ export const skillsData = [
   "Miro",
   "EJS",
   "React Native",
-  "GiHub",
+  "GitHub",
   "Postman",
+  "Convex",
 ] as const;

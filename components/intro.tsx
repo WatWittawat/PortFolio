@@ -63,16 +63,20 @@ export default function Intro() {
           duration: 0.5,
         }}
       >
-        <span className="font-bold">Hello, I'm Wtttawat</span> ,a university
+        <span className="font-bold">Hello, I'm Wittawat</span> ,a university
         student with a passion for{" "}
-        <span className="underline">Front-End development.</span> Trained in{" "}
-        <span className="italic">React, TypeScript, and Tailwind CSS</span>, I
-        am enthusiastic about innovation and problem-solving.{" "}
-        <span className="font-medium">
-          While my ultimate goal is to become a Full-stack Dev
+        <span className="underline">
+          Fullstack development, graduating in March.
+        </span>{" "}
+        Trained in{" "}
+        <span className="italic">
+          Go, Flutter, React, React Native, and Tailwind CSS
         </span>
-        , I am currently focusing on learning Front-End tools and delving into a
-        bit of Back-End development.
+        , I have primarily worked in front-end development, but recently, I’ve
+        developed a strong interest in back-end development and am eager to
+        transition into this field. Currently, I’m deeply focused on learning
+        Golang to strengthen my back-end skills, and I am actively seeking
+        opportunities to work as a back-end developer.
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
