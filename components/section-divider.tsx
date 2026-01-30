@@ -12,7 +12,7 @@ export default function SectionDivider() {
     >
       <div className="bg-slate-200 dark:bg-slate-600 dark:bg-opacity-40 h-12 w-px rounded-full" />
       <span className="font-mono text-[10px] text-slate-400 dark:text-slate-500 tracking-widest">
-        // ———
+        {"// ———"}
       </span>
       <div className="bg-slate-200 dark:bg-slate-600 dark:bg-opacity-40 h-12 w-px rounded-full" />
     </motion.div>
