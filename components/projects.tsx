@@ -24,17 +24,19 @@ const FuncProject = ({ title, description, tags, imageUrl }: ProjectProps) => {
       }}
       className="group mb-3 sm:mb-8 last:mb-0"
     >
-      <section className="bg-gray-100 max-w-[42rem] border border-black/5 overflow-hidden sm:pr-8 relative sm:h-[20rem] hover:bg-gray-200 transition sm:group-even: rounded-lg dark:bg-white/10 dark:hover:bg-white/20 dark:text-white">
-        <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
-          <h3 className="text-2xl font-semibold">{title}</h3>
-          <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
+      <section className="w-full max-w-[42rem] mx-auto bg-slate-100 border border-slate-200/80 overflow-hidden sm:pr-8 relative sm:min-h-[20rem] hover:bg-slate-200/80 hover:border-cyan-300/40 transition sm:rounded-lg dark:bg-slate-800/60 dark:border-slate-600 dark:hover:bg-slate-700/60 dark:hover:border-cyan-500/30 dark:text-white">
+        <div className="pt-4 pb-7 px-4 sm:px-5 sm:pl-10 sm:pr-2 sm:pt-10 w-full sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
+          <h3 className="text-xl sm:text-2xl font-semibold text-slate-800 dark:text-slate-100">
+            {title}
+          </h3>
+          <p className="mt-2 leading-relaxed text-slate-600 dark:text-slate-300 flex-1">
             {description}
           </p>
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
             {tags.map((tag, index) => (
               <li
                 key={index}
-                className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
+                className="bg-cyan-600/90 px-2.5 py-1 text-[0.65rem] sm:text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-cyan-500/80 dark:text-slate-900"
               >
                 {tag}
               </li>
@@ -45,7 +47,7 @@ const FuncProject = ({ title, description, tags, imageUrl }: ProjectProps) => {
           src={imageUrl}
           alt={title}
           quality={95}
-          className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl group-even:right-[initial] group-even:-left-40 group-hover:-translate-x-3 group-even:w-[25rem] group-even:h-[25rem] group-hover:translate-y-3 group-hover:-rotate-2 transition group-hover: scale-[1.04] group-even:group-hover:translate-x-3 group-even:group-hover:translate-y-3 group-even:group-hover:rotate-2"
+          className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] h-[18rem] rounded-t-lg shadow-2xl object-cover object-top group-even:right-[initial] group-even:-left-40 group-hover:-translate-x-3 group-even:w-[25rem] group-even:h-[18rem] group-hover:translate-y-3 group-hover:-rotate-2 transition group-hover:scale-[1.04] group-even:group-hover:translate-x-3 group-even:group-hover:translate-y-3 group-even:group-hover:rotate-2"
         />
       </section>
     </motion.div>

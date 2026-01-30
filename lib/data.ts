@@ -3,6 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import Elite from "@/public/Elite.png";
 import TripGether from "@/public/TripGether.png";
 import DailyNews from "@/public/DailyNews.png";
+import GoSimpleBank from "@/public/GoSimpleBank.png";
+import NexTechStore from "@/public/NexTechStore.jpg";
 
 export const links = [
   {
@@ -33,20 +35,20 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "T.C.C. Technology Co., Ltd. (Internship)",
+    title: "Software Engineer (Go) — T.C.C. Technology Co., Ltd.",
     location: "Thailand",
     description:
-      "MPOS, MCMC POS, and SX POS - Point of Sale (POS) systems designed to support in-store sales, built with the MVVM (Model-View-ViewModel) design pattern. Responsible for developing new features, fixing bugs, and writing unit tests to ensure code quality and reliability.",
+      "Designed and implemented RBAC (Role-Based Access Control) with Go. Built a high-throughput real-time notification service with Firebase Cloud Messaging (FCM), handling 5,000 messages per minute. Developed scalable backend services using Clean Architecture and MySQL, improving query performance by 50%. Wrote BDD tests with Ginkgo to improve code reliability.",
     icon: React.createElement(CgWorkAlt),
-    date: "Apr 2024 - SEP 2024 (6 months)",
+    date: "May 2025 - Present",
   },
   {
-    title: "T.C.C. Technology Co., Ltd. (Part time)",
+    title: "Software Engineer Intern (Flutter) — T.C.C. Technology Co., Ltd.",
     location: "Thailand",
     description:
-      "Little John - A food delivery system within the One Bangkok building, developed using the Bloc Pattern architecture. Contributed to building features for notifications, order cancellations, and displaying order statuses.",
+      "Developed and maintained POS systems (MPOS, MCMC POS, SX POS) using MVVM architecture—delivering new features, bug fixes, and unit tests. Contributed to the SOOK food delivery system: implemented notification, order cancellation, and order status features using Bloc architecture.",
     icon: React.createElement(CgWorkAlt),
-    date: "OCT 2024 - Nov 2024 (2 months)",
+    date: "Apr 2024 - Nov 2024",
   },
 ] as const;
 
@@ -80,31 +82,44 @@ export const projectsData = [
     tags: ["Flutter", "Hive Localstorage Lib", "NewApi"],
     imageUrl: DailyNews,
   },
+  {
+    title: "GoSimpleBank",
+    description:
+      "Banking backend with Go and PostgreSQL—auth, accounts, transactions. REST APIs, gRPC, and CI/CD for build, test, and deploy.",
+    tags: ["Go", "PostgreSQL", "gRPC", "REST API", "CI/CD"],
+    imageUrl: GoSimpleBank,
+  },
+  {
+    title: "NexTech Store",
+    description:
+      "Full-stack e-commerce web app for selling mobile devices, with focus on backend architecture and business logic. Integrated Redis for caching and a mock Stripe-like payment flow for order processing.",
+    tags: ["Go", "Redis", "Full-stack", "E-commerce"],
+    imageUrl: NexTechStore,
+  },
 ] as const;
 
 export const skillsData = [
   "Go",
-  "Flutter",
-  "HTML",
-  "CSS",
-  "JavaScript",
+  "Docker",
+  "Kubernetes",
+  "AWS",
+  "MySQL",
+  "PostgreSQL",
+  "MongoDB",
+  "Node.js",
+  "NestJS",
+  "ASP.NET Core",
   "TypeScript",
+  "JavaScript",
   "React",
   "Next.js",
-  "Node.js",
+  "Flutter",
   "Git",
-  "Tailwind",
-  "MongoDB",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "C/C++",
-  "Framer Motion",
-  "Figma",
-  "Miro",
-  "EJS",
-  "React Native",
   "GitHub",
   "Postman",
+  "Python",
+  "C/C++",
+  "Tailwind",
+  "Figma",
   "Convex",
 ] as const;
